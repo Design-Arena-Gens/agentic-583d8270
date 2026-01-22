@@ -1,0 +1,20 @@
+name: PillarsOfFortine
+main: com.pillarsoffortine.PillarsOfFortinePlugin
+version: ${project.version}
+api-version: '1.21'
+authors:
+  - Codex
+description: Summon Pillars Of Fortine to fortify the battlefield.
+commands:
+  fortine:
+    description: Conjure the Fortine pillars.
+    usage: /fortine [pillar|reload|radius]
+    aliases: [pillars]
+    permission: pillarsoffortine.use
+permissions:
+  pillarsoffortine.use:
+    description: Allows players to conjure Fortine pillars.
+    default: true
+  pillarsoffortine.reload:
+    description: Reload the plugin configuration.
+    default: op

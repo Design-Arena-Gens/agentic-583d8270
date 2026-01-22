@@ -1,0 +1,16 @@
+pillar:
+  height: 6
+  materials:
+    base: POLISHED_DEEPSLATE
+    body: DEEPSLATE_BRICKS
+    cap: GLOWSTONE
+    accent: CRYING_OBSIDIAN
+effect:
+  radius: 6.0
+  potion:
+    type: RESISTANCE
+    amplifier: 1
+    duration: 200
+command:
+  radius: 5
+trigger-block: NETHERITE_BLOCK
